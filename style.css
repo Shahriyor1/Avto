@@ -1,0 +1,177 @@
+/* @import url(./reg.css); */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.Cars {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #2980b9;
+    margin-top: 30px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+h2:after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 50px;
+    background: #2980b9;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s;
+}
+
+h2:hover::after {
+    width: 100%;
+}
+
+h3 {
+    color: #34495e;
+    margin-top: 30px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+h3:after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 50px;
+    background: #2980b9;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s;
+}
+
+h3:hover::after {
+    width: 100%;
+}
+
+a {
+    text-decoration: none; /* Chiziqni o'chirish */
+    color: #2980b9; /* Rangi */
+    transition: color 0.3s; /* Rang o'zgarishi animatsiyasi */
+}
+a:hover {
+    color: #f1c40f; /* Hover holatidagi rang */
+}
+
+
+.w140, .cls63, .m5, .P-911 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.w140:hover, .cls63:hover, .m5:hover, .P-911:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+img, iframe, video {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+iframe:hover {
+    transform: scale(1.05);
+}
+
+
+img {
+    width: 575px;
+    height: 400px;
+}
+img :nth-child(2n){
+    width: 575px;
+    height: 400px;
+}
+
+iframe{
+    width: 1200px;
+    height: 600px;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px; /* Yozuv o'lchami */
+    line-height: 1.6; /* Qator balandligi */
+    color: #444; /* Matn rangi */
+    background-color: rgba(255, 255, 255, 0.8); /* Oq fon rangiga yarim shaffoflik */
+    padding: 15px; /* Ichki bo'shliq */
+    border-radius: 10px; /* Burchaklarni yumshatish */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Yengil soyali effekt */
+    margin: 20px 0; /* Yuqoridan va pastdan bo'shliq */
+    transition: transform 0.3s; /* O'zgarishlar uchun animatsiya */
+}
+
+p:hover {
+    transform: scale(1.02); /* Hover qilinganda bir oz kattalashtirish */
+}
+
+
+.menu {
+    background-color: #2980b9;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.menu a:hover {
+    color: #f1c40f;
+    text-shadow: 0 0 10px #f1c40f;
+}
+
